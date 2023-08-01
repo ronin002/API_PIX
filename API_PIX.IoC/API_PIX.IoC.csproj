@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\API_PIX.Application\API_PIX.Application.csproj" />
+    <ProjectReference Include="..\API_PIX.Data\API_PIX.Data.csproj" />
+    <ProjectReference Include="..\API_PIX.Main\API_PIX.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
